@@ -15,7 +15,7 @@ const FindDoctor = () => {
           CONTACT US REQUEST FOR YOUR
         </Text>
         <Text as="h2" fontSize={"4xl"} lineHeight="2.6rem" fontWeight="bold">
-          Find Best Doctors With
+          Find Best Doctors With{" "}
           <span style={{ color: "rgb(19, 162, 183)" }}>AESTHETIC</span>
         </Text>
         <Text as="p" mt={4} fontSize="lg">
