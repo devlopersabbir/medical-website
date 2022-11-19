@@ -17,7 +17,8 @@ const Welcome: React.FC = () => {
       <Box
         mt="-32"
         p={{ base: "2", sm: "4", md: "6", lg: "8" }}
-        bg={"white"}
+        bg={"whiteAlpha.100"}
+        backdropBlur="3xl"
         boxShadow="lg"
         borderRadius="sm"
         w={{ base: "full", lg: "full", xl: "33%" }}

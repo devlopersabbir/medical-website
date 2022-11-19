@@ -6,6 +6,7 @@ import Head from "next/head";
 import Hero from "../components/HomePage/HeroSection/Hero";
 import Layout from "../components/Layout";
 import Welcome from "../components/HomePage/Welcome/Welcome";
+import Why from "../components/HomePage/Why/Why";
 
 const Home: NextPage = () => {
   return (
@@ -19,6 +20,7 @@ const Home: NextPage = () => {
       <Hero />
       <Layout>
         <Welcome />
+        <Why />
       </Layout>
     </>
   );

@@ -5,7 +5,13 @@ const Consultation = () => {
   return (
     <Flex flexDir={"column"} gap={5}>
       <Stack spacing={-3}>
-        <Text as="p" fontSize="lg" fontWeight="semibold" color="blackAlpha.600">
+        <Text
+          as="p"
+          fontSize="lg"
+          fontWeight="semibold"
+          color="blackAlpha.600"
+          _dark={{ color: "whiteAlpha.600" }}
+        >
           CONTACT US REQUEST FOR YOUR
         </Text>
         <Text as="h1" fontSize={"5xl"} fontWeight="bold">
